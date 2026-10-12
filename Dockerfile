@@ -9,7 +9,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app.py .
 COPY bus_passenger_model_new.pkl .
-COPY prediction_logs.csv .
+
 
 EXPOSE 8501
 
