@@ -11,6 +11,6 @@ COPY app.py .
 COPY bus_passenger_model_new.pkl .
 
 
-EXPOSE 8501
+EXPOSE 10000
 
-CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+CMD ["sh", "-c", "streamlit run app.py --server.address=0.0.0.0 --server.port=${PORT:-10000}"]
