@@ -1,0 +1,11 @@
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+prediction_logs.csv
+prediction_logs_before_update.csv
+bus-passenger-prediction.tar
+bus_passenger_model_backup.pkl
+bus_passenger_model_backup_before_retrain.pkl
