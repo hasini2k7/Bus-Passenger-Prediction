@@ -1,6 +1,4 @@
-
-date,time,route,weather,passenger_count
-date,time,route,weather,passenger_count
+﻿date,time,route,weather,passenger_count
 2026-01-01,08:00,Route_A,Clear,45
 2026-01-01,09:00,Route_A,Clear,52
 2026-01-01,10:00,Route_A,Rainy,38
